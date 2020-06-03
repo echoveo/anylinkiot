@@ -293,7 +293,8 @@ Switch the dial switches to make sure dial switch 1 is on the left, dial switch 
 2.	Then power on the box. 
 Open the image file folder, and run(double click) the following script:
 
-    ```mfgtool2-yocto-mx-evk-emmc.vbs
+    ```
+	mfgtool2-yocto-mx-evk-emmc.vbs
 	```
 
 <p align="center">
