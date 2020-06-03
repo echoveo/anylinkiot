@@ -280,13 +280,13 @@ Please **download** the debian image before burning it into AnyLink IE Pro:
 1.	Power off the box, use Micro-USB cabel to connect the box and PC.
 
 <p align="center">
-  <img src="./img/interface.png" alt="MfgTool" width="738">
+  <img src="./img/interface.png" alt="IE Pro interfaces" width="738">
 </p>
 
 Switch the dial switches to make sure dial switch 1 is on the left, dial switch 2 is on the right.
 
 <p align="center">
-  <img src="./img/dial_switch.png" alt="MfgTool" width="738">
+  <img src="./img/dial_switch.png" alt="dial switch 1 & 2" width="738">
 </p>
 
 
