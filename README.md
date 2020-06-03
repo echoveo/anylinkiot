@@ -1,4 +1,4 @@
-# AnyLink IE Pro IoT Box code samples
+# AnyLink IE Pro IoT Box User Guide
 
 AnyLink IE Pro is an industrial IoT box. It can be used in many IoT use cases, such as enviroment monitoring, fleet management, industrial device data aquisition and hvac remote monitoring.
 
@@ -270,4 +270,40 @@ Protection & Installation
 | Size                      | 135×105×38(mm)       |
 | Weight                    | 600g                 |
 
+
+## How to burn image for AnyLink IE Pro
+
+Please **download** the debian image before burning it into AnyLink IE Pro:
+[https://en.anylink.io/download/mfgtools-L4.4.15_2.0.0_debian.zip](https://en.anylink.io/download/mfgtools-L4.4.15_2.0.0_debian.zip "IE Pro debian image download url").
+
+
+1.	Power off the box, use Micro-USB cabel to connect the box and PC.
+
+<p align="center">
+  <img src="./img/interface.png" alt="MfgTool" width="738">
+</p>
+
+Switch the dial switches to make sure dial switch 1 is on the left, dial switch 2 is on the right.
+
+<p align="center">
+  <img src="./img/dial_switch.png" alt="MfgTool" width="738">
+</p>
+
+
+2.	Then power on the box. 
+Open the image file folder, and run(double click) the following script:
+
+    ```mfgtool2-yocto-mx-evk-emmc.vbs
+	```
+
+<p align="center">
+  <img src="./img/mfgtool3.png" alt="MfgTool" width="738">
+</p>
+
+
+After MfgTool finds the device, click Start button, it'll burn the image into the box.
+
+3.	When burning is finished, power off the box, disconnect the Micro-USB cable. Reset two dial switches(1 on the right, 2 on the left).
+
+4.	Connect PC with the serial port using serial port cable, then use Putty to connect the COM port. Sucessful serial port connection will indicate that the burning process suceeded.
 
